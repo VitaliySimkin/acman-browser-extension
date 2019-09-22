@@ -1,0 +1,21 @@
+.ns-icon-versions-tab {
+	background-image: url("/img/versions-tab.svg");
+}
+.ns-icon-settings-tab {
+	background-image: url("/img/settings-tab.svg");
+}
+.ns-icon-activities-tab {
+	background-image: url("/img/activities-tab.svg");
+}
+.ns-icon-status-done {
+	background-image: url("/img/status-done.svg");
+}
+.ns-icon-status-inpause {
+	background-image: url("/img/status-inpause.svg");
+}
+.ns-icon-status-inprogress {
+	background-image: url("/img/status-inprogress.svg");
+}
+.ns-icon-status-new {
+	background-image: url("/img/status-new.svg");
+}

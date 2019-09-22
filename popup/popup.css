@@ -1,0 +1,113 @@
+@import "/img/ns-icon.css";
+
+/* #region common styles */
+body {
+	min-width: 800px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.popup-content {
+	padding: 5px;
+	height: -webkit-fill-available;
+	max-height: 500px;
+	background-color: #f3f3f3;
+	overflow-y: auto;
+    position: relative;
+}
+.popup-header {
+	height: 36px;
+	background-color: #ffffff;
+	border-bottom: solid 1px #aaaaaa;
+	display:flex;
+	justify-content:space-between;
+}
+
+.ns-container {
+	width: calc(100% - 2px);
+	padding: 9px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ebeef5;
+	border-radius: 3px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.responsive, .responsive-cnt {
+	cursor: pointer;
+	user-select: none;
+}
+
+.responsive:hover, .responsive-cnt:hover {
+	border-color: #74baff;
+}
+
+.responsive:active, .responsive[active] {
+	border-color: #a2bbe8;
+}
+
+.responsive:hover, .responsive-cnt:hover span {
+	filter: invert(1) brightness(0.5) sepia(1) hue-rotate(180deg) saturate(5);
+}
+
+.responsive:active, .responsive[active], .responsive-cnt:active span, .responsive-cnt[active] span {
+	filter: invert(1) brightness(0.3) sepia(1) hue-rotate(180deg) saturate(5);
+}
+/* #endregion */
+
+/* #region header styles */
+.extension-logo-cnt {
+	user-select: none;
+	margin: 4px 10px;
+}
+.extension-logo-icon {
+	background-image: url(../img/128.png);
+	background-size: contain;
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+}
+.extension-logo-version {
+	font-family: "Jura-Medium";
+	font-size: 15px;
+	display: inline-block;
+	color: #555555;
+	height: 100%;
+	vertical-align: 3px;
+}
+.extension-has-update-text {
+	color: red;
+	position: absolute;
+	top: -1px;
+	right: 2px;
+}
+.extension-logo-github {
+	background-image: url(../img/github.png);
+	height: 23px;
+	display: inline-block;
+	width: 65px;
+	background-size: 117%;
+	background-position-y: -2px;
+	background-position-x: -7px;
+	margin-left: 20px;
+}
+/* #endregion */
+
+/* #region scrollbar */
+::-webkit-scrollbar {
+	width: 10px !important;
+	height: 10px !important;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1 !important;
+}
+::-webkit-scrollbar-thumb {
+	background: #bbb !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #888 !important;
+}
+/* #endregion */

@@ -1,0 +1,12 @@
+.acman-btn {
+	font-size: 14px;
+    padding: 2px 5px;
+    height: unset;
+    line-height: 1;
+    margin: 0 6px;
+    vertical-align: middle;
+}
+
+.acman-btn~.acman-btn {
+	margin-left: 0;
+}
